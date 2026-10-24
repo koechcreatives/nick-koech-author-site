@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nick Koech — Author, Mentor &amp; Speaker</title>
+<meta name="description" content="Twists you won’t see coming. Lessons you wish you’d learned sooner. Gripping stories by Kenyan author Nick Koech that stay with you after the last page.">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#141110">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Nick Koech — Author, Mentor &amp; Speaker">
+<meta property="og:description" content="Twists you won’t see coming. Lessons you wish you’d learned sooner. Gripping stories by Kenyan author Nick Koech that stay with you after the last page.">
+<meta property="og:url" content="https://nickkoech.co.ke/">
+<meta property="og:image" content="https://nickkoech.co.ke/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="https://nickkoech.co.ke/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%23d7b680'/%3E%3Ctext x='32' y='45' font-size='38' text-anchor='middle' font-family='Georgia,serif' font-weight='700' fill='%23141110'%3EN%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    box-sizing: border-box;
+    color-scheme: dark;
+    --bg:#141110; --bg2:#1d1814; --ink:#efe6d3; --soft:#b9ad96;
+    --gold:#d7b680; --on-gold:#1a1410; --rule:rgba(239,230,211,.16);
+    padding-top: env(safe-area-inset-top, 0px);
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  *{box-sizing:inherit}
+  html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 76px)}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:"Literata",Georgia,serif;font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  h1,h2,h3{font-family:"Fraunces",Georgia,serif;margin:0}
+  .wrap{max-width:980px;margin:0 auto;padding:0 24px}
+  .skip{position:absolute;left:16px;top:-60px;z-index:20;background:var(--gold);color:var(--on-gold);padding:10px 16px;border-radius:4px;text-decoration:none}
+  .skip:focus{top:calc(env(safe-area-inset-top,0px) + 12px)}
+
+  header.site{position:sticky;top:0;top:env(safe-area-inset-top,0px);z-index:10;background:color-mix(in srgb,var(--bg) 88%,transparent);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);border-bottom:1px solid var(--rule)}
+  .nav-row{display:flex;align-items:center;justify-content:space-between;max-width:980px;margin:0 auto;padding:14px 24px}
+  .wordmark{font-family:"Fraunces",serif;font-weight:700;text-decoration:none}
+  nav.links{display:flex;gap:22px;font-size:.9rem}
+  nav.links a{text-decoration:none;color:var(--soft)}
+  nav.links a:hover,nav.links a:focus-visible{color:var(--gold)}
+  @media(max-width:560px){nav.links{gap:14px;font-size:.82rem}}
+  @media(max-width:400px){.nav-row{padding:12px 16px}nav.links{gap:10px;font-size:.78rem}}
+  .hero:focus{outline:none}
+
+  section{padding:72px 0;border-bottom:1px solid var(--rule)}
+  section:last-of-type{border-bottom:none}
+  .kicker{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);margin:0 0 22px}
+
+  .hero{display:grid;gap:36px;align-items:center;padding:56px 0 64px}
+  @media(min-width:820px){.hero{grid-template-columns:1.25fr .75fr;gap:56px}}
+  .hero h1{font-weight:600;font-size:clamp(2.3rem,7vw,4rem);line-height:1.06;letter-spacing:-.01em;margin-bottom:22px}
+  .hero .lede{color:var(--soft);font-size:1.08rem;max-width:44ch;margin:0 0 30px}
+  .btns{display:flex;gap:14px;flex-wrap:wrap}
+  .btn{display:inline-block;font-family:"Literata",serif;font-size:.95rem;text-decoration:none;padding:14px 24px;border:1px solid var(--ink);border-radius:8px;color:var(--ink);transition:background .15s,color .15s}
+  .btn:hover,.btn:focus-visible{background:var(--rule)}
+  .btn.primary{background:var(--gold);border-color:var(--gold);color:var(--on-gold);font-weight:600}
+  .btn.primary:hover,.btn.primary:focus-visible{background:#e6c897;border-color:#e6c897}
+  .portrait{border-radius:14px;overflow:hidden;border:1px solid var(--rule);box-shadow:0 18px 40px rgba(0,0,0,.45);aspect-ratio:1/1;max-width:440px;width:100%}
+  .portrait img{width:100%;height:100%;object-fit:cover;display:block}
+  .genres{margin:34px 0 0;font-size:.82rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold)}
+
+  .section-head{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin-bottom:34px}
+  .section-head h2{font-weight:600;font-size:1.9rem}
+  .section-head .count{font-size:.85rem;color:var(--soft)}
+
+  .books{display:grid;gap:34px 40px}
+  @media(min-width:780px){.books{grid-template-columns:1fr 1fr}}
+  .book{display:grid;grid-template-columns:112px 1fr;gap:20px;align-items:start}
+  .cover{aspect-ratio:2/3;border-radius:4px 8px 8px 4px;background:linear-gradient(160deg,var(--c1),var(--c2));border:1px solid var(--rule);box-shadow:0 10px 22px rgba(0,0,0,.5),inset 4px 0 0 rgba(0,0,0,.25);display:flex;flex-direction:column;justify-content:space-between;padding:12px 10px;text-align:center}
+  .cover span{font-family:"Fraunces",serif;font-weight:600;font-size:.9rem;line-height:1.15;color:var(--ink)}
+  .cover small{font-size:.62rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold)}
+  img.cover{width:100%;height:auto;object-fit:cover;padding:0;display:block}
+  .info .tag{font-size:.76rem;color:var(--gold);letter-spacing:.06em}
+  .info h3{font-weight:600;font-size:1.25rem;line-height:1.2;margin:4px 0 8px}
+  .info p{margin:0 0 12px;color:var(--soft);font-size:.95rem}
+  .soon{display:inline-block;font-size:.8rem;color:var(--soft);border:1px solid var(--rule);border-radius:999px;padding:4px 12px;margin:0 12px 6px 0}
+  .buy{display:inline-block;background:var(--gold);color:var(--on-gold);font-weight:600;font-size:.88rem;padding:10px 16px;border-radius:8px;text-decoration:none;margin:0 14px 6px 0}
+  .buy:hover,.buy:focus-visible{background:#e6c897}
+  .link{font-size:.9rem;color:var(--gold);text-underline-offset:4px}
+  .wip-note{margin:40px 0 0;padding-top:22px;border-top:1px dashed var(--rule);font-size:.95rem;color:var(--soft);font-style:italic}
+  .wip-note strong{color:var(--gold);font-style:normal}
+
+  .about p{margin:0 0 18px;max-width:66ch}
+  .bio p:first-of-type::first-letter{font-family:"Fraunces",serif;font-weight:700;font-size:3.4rem;line-height:.75;float:left;margin:6px 8px 0 0;color:var(--gold)}
+  .roots{display:flex;gap:28px;flex-wrap:wrap;margin-top:10px;font-size:.88rem;color:var(--soft)}
+  .roots strong{display:block;color:var(--ink);font-family:"Fraunces",serif;font-weight:600;font-size:.95rem;margin-bottom:2px}
+
+  .offer-grid{display:grid;gap:28px}
+  @media(min-width:700px){.offer-grid{grid-template-columns:1fr 1fr}}
+  .offer{background:var(--bg2);border:1px solid var(--rule);border-radius:12px;padding:24px}
+  .offer h3{font-weight:600;font-size:1.15rem;color:var(--gold);margin-bottom:8px}
+  .offer p{margin:0;color:var(--soft);font-size:.95rem}
+  .cta{margin:30px 0 0}
+
+  .join{background:var(--bg2);border:1px solid var(--rule);border-radius:14px;padding:32px 28px}
+  .join h2{font-weight:600;font-size:1.6rem;margin-bottom:10px}
+  .join p{color:var(--soft);max-width:52ch;margin:0 0 22px}
+
+  footer.site{padding:56px 0 calc(56px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--rule)}
+  footer.site h2{font-weight:600;font-size:1.6rem;margin-bottom:14px}
+  footer.site p{color:var(--soft);max-width:52ch;margin:0 0 24px}
+  .contact-row{display:flex;gap:20px;flex-wrap:wrap;align-items:center}
+  .contact-row .mail{color:var(--soft);font-size:.92rem}
+  .fine{margin-top:40px;padding-top:20px;border-top:1px solid var(--rule);font-size:.78rem;color:var(--soft);display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+  :focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+  @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://nickkoech.co.ke/#nick", "name": "Nick Koech", "url": "https://nickkoech.co.ke/", "image": "https://nickkoech.co.ke/og-image.jpg", "jobTitle": "Author, mentor and speaker", "email": "hello@nickkoech.co.ke", "description": "Kenyan author, mentor and speaker writing novels, memoir and nonfiction rooted in Kenyan life.", "homeLocation": {"@type": "Place", "name": "Nairobi, Kenya"}}, {"@type": "Book", "name": "In My Stupid Era", "genre": "Memoir", "author": {"@id": "https://nickkoech.co.ke/#nick"}}, {"@type": "Book", "name": "The Bread I Couldn't Stop Eating", "genre": "Memoir", "author": {"@id": "https://nickkoech.co.ke/#nick"}}, {"@type": "Book", "name": "My Wishful Thoughts", "genre": "Novel", "author": {"@id": "https://nickkoech.co.ke/#nick"}}, {"@type": "Book", "name": "Thirsty for Love", "genre": "Novel", "author": {"@id": "https://nickkoech.co.ke/#nick"}}, {"@type": "Book", "name": "The Secret Regrets", "genre": "Novel", "author": {"@id": "https://nickkoech.co.ke/#nick"}}, {"@type": "Book", "name": "Becoming a Teacher", "genre": "Nonfiction", "author": {"@id": "https://nickkoech.co.ke/#nick"}}, {"@type": "Book", "name": "RICE", "genre": "Crime novel", "author": {"@id": "https://nickkoech.co.ke/#nick"}}, {"@type": "Book", "name": "Leading Beyond the Ordinary", "genre": "Memoir", "author": {"@id": "https://nickkoech.co.ke/#nick"}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site">
+  <div class="nav-row">
+    <a class="wordmark" href="#top">Nick Koech</a>
+    <nav class="links" aria-label="Primary">
+      <a href="#books">Books</a>
+      <a href="#about">About</a>
+      <a href="#speaking">Speaking</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap" id="top">
+
+  <section class="hero" id="main" tabindex="-1">
+    <div>
+      <p class="kicker">Nick Koech · Author</p>
+      <h1>More Than Stories. Experiences That Stay With You.</h1>
+      <p class="lede">Fiction that keeps you turning pages and nonfiction that gives you something to act on, from Kenyan author and mentor Nick Koech.</p>
+      <div class="btns">
+        <a class="btn primary" href="#books">Explore my books</a>
+        <a class="btn" href="#about">Meet the author</a>
+      </div>
+      <p class="genres">Fiction · Memoir · Personal growth</p>
+    </div>
+    <div class="portrait"><img decoding="async" src="portrait.jpg" width="720" height="720" alt="Portrait of Nick Koech"></div>
+  </section>
+
+  <section id="books">
+    <div class="section-head">
+      <h2>Books</h2>
+      <span class="count" id="book-count">8 titles · 5 available now</span>
+    </div>
+    <div class="books">
+      <article class="book">
+        <img class="cover" loading="lazy" decoding="async" src="cover-in-my-stupid-era.jpg" width="360" height="540" alt="Cover of In My Stupid Era by Nick Koech">
+        <div class="info">
+          <span class="tag">Memoir</span>
+          <h3>In My Stupid Era</h3>
+          <p>I wasn’t stupid. I could even tell when something was wrong. That was the problem. Sometimes I knew. A memoir about red flags I called friendship, warnings I called patience, and the things we do when we know better.</p>
+          <span class="soon">Coming soon</span><a class="link" href="https://wa.me/254753834419?text=Hello%20Nick%2C%20please%20let%20me%20know%20when%20In%20My%20Stupid%20Era%20is%20out." target="_blank" rel="noopener">Get notified at launch</a>
+        </div>
+      </article>
+      <article class="book">
+        <div class="cover" role="img" aria-label="Cover coming soon for RICE by Nick Koech" style="--c1:#3a2a1c;--c2:#16100a"><small>Novel</small><span>RICE</span><small>Nick Koech</small></div>
+        <div class="info">
+          <span class="tag">Psychological crime novel</span>
+          <h3>RICE</h3>
+          <p>One plate of rice. One stranger’s funeral. One line he can’t uncross. Musa sleeps under a bridge in Nairobi, until a funeral feeds him and a dangerous idea begins to grow. A dark, haunting Nairobi crime story about hunger, dignity, and a boy the city forgot.</p>
+          <span class="soon">Coming soon</span><a class="link" href="https://wa.me/254753834419?text=Hello%20Nick%2C%20please%20let%20me%20know%20when%20RICE%20is%20out." target="_blank" rel="noopener">Get notified at launch</a>
+        </div>
+      </article>
+      <article class="book">
+        <img class="cover" loading="lazy" decoding="async" src="cover-bread.jpg" width="328" height="540" alt="Cover of The Bread I Couldn't Stop Eating by Nick Koech">
+        <div class="info">
+          <span class="tag">Memoir</span>
+          <h3>The Bread I Couldn't Stop Eating</h3>
+          <p>At fifteen, he sewed clothes for classmates and earned up to KSh 700 a week. He saved none of it. Almost every shilling went on bread. Years later he built a business from eighteen gas cylinders to nearly a hundred, and still ended up repaying debt from a partnership he walked away from. An honest memoir about money, mistakes, and financial discipline, in eleven short stories, each with the lesson, the correct way, and an action step.</p>
+          <a class="buy" href="https://nickkoechbooks.site/" target="_blank" rel="noopener">Read a free sample</a><a class="link" href="mailto:info@nickkoech.co.ke?subject=Question%20about%20this%20book">Questions?</a>
+        </div>
+      </article>
+      <article class="book">
+        <img class="cover" loading="lazy" decoding="async" src="cover-wishful.jpg" width="360" height="540" alt="Cover of My Wishful Thoughts by Nick Koech">
+        <div class="info">
+          <span class="tag">Novel</span>
+          <h3>My Wishful Thoughts</h3>
+          <p>Heartbreak doesn’t slam doors. It slips in quietly, sits beside you, and stays. When Ethan’s relationship ends with a single text message, he’s left in a Nairobi apartment with an empty fridge, a notebook of dreams for two, and a mind that keeps writing better endings. A raw, funny, and deeply honest novel about heartbreak, hustle, and faith. And the ending? You won’t see it coming.</p>
+          <a class="buy" href="https://nickkoechbooks.site/" target="_blank" rel="noopener">Read a free sample</a><a class="link" href="mailto:info@nickkoech.co.ke?subject=Question%20about%20My%20Wishful%20Thoughts">Questions?</a>
+        </div>
+      </article>
+      <article class="book">
+        <img class="cover" loading="lazy" decoding="async" src="cover-thirsty.jpg" width="360" height="521" alt="Cover of Thirsty for Love by Nick Koech">
+        <div class="info">
+          <span class="tag">Novel</span>
+          <h3>Thirsty for Love</h3>
+          <p>Kenny walks into a Nairobi college with disappointing results and a quiet determination to start over. Then he meets Beryl, and one confident hello changes everything. There are misunderstandings, a best friend who could pass for his twin, family secrets, and a heartbreak that makes him wonder if he’s lost her for good. A warm, funny, emotional story about first love, loyalty, and forgiveness.</p>
+          <a class="buy" href="https://nickkoechbooks.site/" target="_blank" rel="noopener">Read a free sample</a><a class="link" href="mailto:info@nickkoech.co.ke?subject=Question%20about%20this%20book">Questions?</a>
+        </div>
+      </article>
+      <article class="book">
+        <img class="cover" loading="lazy" decoding="async" src="cover-the-secret-regrets.jpg" width="360" height="524" alt="Cover of The Secret Regrets by Nick Koech">
+        <div class="info">
+          <span class="tag">Novel</span>
+          <h3>The Secret Regrets</h3>
+          <p>Daniel was a shop attendant in Nairobi who earned little and kept his integrity. Then a stranger handed him a white business card, and an old friend called from Nakuru with an offer that sounded too good to refuse. He said yes. He also met the woman he would love most, and made choices that would cost him her. Some people regret what they did. Daniel regrets what he believed.</p>
+          <a class="buy" href="https://nickkoechbooks.site/" target="_blank" rel="noopener">Read a free sample</a><a class="link" href="mailto:info@nickkoech.co.ke?subject=Question%20about%20The%20Secret%20Regrets">Questions?</a>
+        </div>
+      </article>
+      <article class="book">
+        <img class="cover" loading="lazy" decoding="async" src="cover-becoming-a-teacher.jpg" width="360" height="528" alt="Cover of Becoming a Teacher by Nick Koech">
+        <div class="info">
+          <span class="tag">Nonfiction</span>
+          <h3>Becoming a Teacher</h3>
+          <p>Teaching is more than a job. It’s a calling that tests you, stretches you, and sometimes wears you down. Whether you’re just starting out or twenty years in, this book offers 24 chapters of encouragement, perspective, and practical wisdom, rooted in Kenya and relevant anywhere.</p>
+          <a class="buy" href="https://nickkoechbooks.site/" target="_blank" rel="noopener">Read a free sample</a><a class="link" href="mailto:info@nickkoech.co.ke?subject=Question%20about%20Becoming%20a%20Teacher">Questions?</a>
+        </div>
+      </article>
+      <article class="book">
+        <img class="cover" loading="lazy" decoding="async" src="cover-leading-beyond-the-ordinary.jpg" width="360" height="540" alt="Cover of Leading Beyond the Ordinary by Nick Koech">
+        <div class="info">
+          <span class="tag">Memoir</span>
+          <h3>Leading Beyond the Ordinary</h3>
+          <p>You don’t need a title to lead. You need character. From a village in Kericho to running four businesses, and walking away from an eleven-year friendship, Nick shares candid, practical lessons on leadership as it really happens: at home, at work, and in the choices nobody sees. Twelve honest stories and a 27-principle Leadership Manifesto.</p>
+          <span class="soon">Not yet available</span><a class="link" href="mailto:info@nickkoech.co.ke?subject=Book%20enquiry%3A%20Leading%20Beyond%20the%20Ordinary">Ask about this book</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="section-head"><h2>About</h2></div>
+    <div class="bio">
+      <p><strong>Every Story Has Something to Leave With You.</strong></p>
+      <p>I’m Nick Koech, an author and mentor from Kenya. I write fiction, nonfiction, and screenplays, and one question sits behind all of it: what will the reader carry out of this story?</p>
+      <p>Sometimes it’s a twist you didn’t see coming. Sometimes it’s a lesson about money, ambition, or growing up that I wish someone had told me sooner. My stories draw on real life, from Nairobi streets to my roots in Kericho, and on what I’ve learned mentoring and speaking with people along the way.</p>
+      <p>Don’t just read a book. Experience a story. Discover a lesson.</p>
+    </div>
+    <div class="roots">
+      <div><strong>Based in</strong>Nairobi, Kenya</div>
+      <div><strong>Roots in</strong>Kericho</div>
+      <div><strong>Day role</strong>Business Development Manager, Primecap</div>
+    </div>
+  </section>
+
+  <section id="speaking">
+    <div class="section-head"><h2>Speaking &amp; mentorship</h2></div>
+    <div class="offer-grid">
+      <div class="offer">
+        <h3>Speaking engagements</h3>
+        <p>Talks on storytelling, leadership, and rebuilding after setbacks, for schools, conferences, and community events.</p>
+      </div>
+      <div class="offer">
+        <h3>Mentorship</h3>
+        <p>One-on-one and group mentoring for emerging writers and young people finding their direction.</p>
+      </div>
+    </div>
+    <p class="cta"><a class="btn" href="#contact">Enquire about a talk or mentorship</a></p>
+  </section>
+
+  <section>
+    <div class="join">
+      <h2>Join the reader community</h2>
+      <p>An email invitation to follow Nick's work, from new releases to progress on the Nairobi crime novel.</p>
+      <a class="btn primary" href="mailto:hello@nickkoech.co.ke?subject=Add%20me%20to%20the%20reader%20list">Join by email</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <h2 id="contact">Get in touch</h2>
+    <p>For bookings, speaking requests, and media inquiries, email below. Engagements are confirmed through Nick's manager.</p>
+    <div class="contact-row">
+      <a class="btn primary" href="mailto:hello@nickkoech.co.ke?subject=Talk%20or%20mentorship%20enquiry">Email Nick</a>
+      <a class="mail" href="mailto:hello@nickkoech.co.ke">hello@nickkoech.co.ke</a>
+      <a class="mail" href="mailto:info@nickkoech.co.ke">info@nickkoech.co.ke</a>
+      <a class="btn" href="#top">Back to top</a>
+    </div>
+    <div class="fine"><span>© 2026 Nick Koech</span><span>Nairobi, Kenya</span></div>
+  </div>
+</footer>
+<script>
+(function(){var n=document.querySelectorAll('#books .book'),a=document.querySelectorAll('#books .buy'),c=document.getElementById('book-count');
+if(c&&n.length){c.textContent=n.length+' titles \u00b7 '+a.length+' available now';}})();
+</script>
+</body>
+</html>
